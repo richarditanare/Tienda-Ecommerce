@@ -111,12 +111,3 @@ Richard Itanare
 Este proyecto fue realizado como entrega final del curso de ReactJS (Argentina Programa). Fue diseñado con enfoque en buenas prácticas, separación de componentes, y experiencia de usuario.
 
 ---
-
-## 📷 Capturas de la aplicación
-
-- Home con listado de productos.
-- Detalle de producto.
-- Panel de administración.
-- Carrito de compras.
-- Formulario de contacto.
-- Vista mobile.
