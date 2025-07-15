@@ -1,0 +1,33 @@
+.productos-container{
+    display: flex;  
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+ 
+.producto-card{
+    background-color: #4CAF50;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+}
+
+.producto-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.paginador-btn {
+  transition: all 0.2s;
+}
+.paginador-btn:not(.btn-primary):hover,
+.paginador-btn:not(.active):hover {
+  border-color: #338af3 !important;
+  color: #338af3 !important;
+  background: #f2f7fd !important;
+  font-weight: 600;
+}
+

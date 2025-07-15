@@ -1,0 +1,21 @@
+.tarjeta-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: beige;
+  margin-top: 2px;
+  border-radius: 8px;
+}
+
+.titulo-proyecto {
+    text-align: center;
+}
+
+.hover-shadow {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-shadow:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
